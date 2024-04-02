@@ -1,0 +1,21 @@
+# .gitignore
+
+# Ignore the bigenv environment
+bigenv/
+
+# Ignore Python build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore Python distribution artifacts
+dist/
+build/
+*.egg-info/
+
+# Ignore Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Ignore VS Code settings
+.vscode/
