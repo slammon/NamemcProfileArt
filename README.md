@@ -1,7 +1,4 @@
-# NameMCtools
-yup
-
-## Profile Art Generator
+# Profile Art Generator
 
 This script generates Minecraft skin files from a given input image.
 
@@ -14,6 +11,7 @@ To install the required Python library, run the following command:
 
 ```bash
 ```pip install -r requirements.txt```
+```
 
 Usage
 Place your input image and skin template in the src/assets/PAG directory. The input image should be named input.png and the skin template should be named skin_template.png.
