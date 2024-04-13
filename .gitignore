@@ -3,6 +3,10 @@
 # Ignore the bigenv environment
 bigenv/
 
+# Ignore the already generated images from testing
+assets/output/
+assets/output2/
+
 # Ignore Python build artifacts
 __pycache__/
 *.py[cod]
