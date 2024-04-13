@@ -9,29 +9,25 @@ Before running the script, ensure you have the following prerequisites:
 - Python 3.6 or later
 - Pillow (Python Imaging Library Fork)
 
-The Pillow library can be installed using the `pip` package manager with the provided `requirements.txt` file. Execute the following command in your terminal:
-
-```bash
-pip install -r requirements.txt
-```
+The Pillow library (if not found) will attempt to install itsself upon running `main.py`. If Pillow returns an error then please manually install Pillow via the terminal with ```pip3 install --upgrade pillow```.
 
 ## Setup
 
 1. Clone or download the repository to your local machine.
-2. Navigate to the `src/assets/PAG` directory within the cloned repository.
+2. Navigate to the `assets` directory within the cloned repository.
 
 ## Usage Instructions
 
-- Place your chosen input image within the `src/assets/PAG` directory. This image will be dissected into individual skin elements. It must be named `input.png` for the script to recognize it automatically.
+- Place your chosen input image within the `assets` directory. This image will be dissected into individual skin elements. It must be named `input.png` for the script to recognize it automatically.
 - If a file named `input.png` already exists, replace it with your chosen banner image.
-- Execute the `src/ProfileArtGen.py` script from the root of the repository:
+- Execute the `main.py` script from the root of the repository:
 
 ```bash
-python src/ProfileArtGen.py
+python main.py
 ```
 
-- Upon successful execution, the script will output 27 individual skin files to the `src/assets/PAG/output` directory. Each skin file is named in the sequence `skin_1.png` through `skin_27.png`.
-- Additionally, the cropped 8x8 blocks extracted from the input image will be stored in the `src/assets/PAG/output2` directory for reference.
+- Upon successful execution, the script will output 27 individual skin files to the `assets/output` directory. Each skin file is named in the sequence `skin_1.png` through `skin_27.png`.
+- Additionally, the cropped 8x8 blocks extracted from the input image will be stored in the `assets/output2` directory for reference though you can ignore them.
 
 ## Important Notes
 
