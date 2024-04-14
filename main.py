@@ -22,12 +22,14 @@ if input_image.size != (72, 24):
 os.makedirs('assets/output', exist_ok=True)
 os.makedirs('assets/output2', exist_ok=True)
 
-counter = 0
+counter = 26
 
 start_time = time.time()
 
 for i in range(3):
     for j in range(9):
+        if i == 0 and j == 0:
+            continue
         block = input_image.crop((j*8, i*8, j*8+8, i*8+8))
         
         block.save(f'assets/output2/block_{counter}.png')
@@ -37,7 +39,7 @@ for i in range(3):
         
         skin.save(f'assets/output/skin_{counter}.png')
         
-        counter += 1
+        counter -= 1
 
 end_time = time.time()
 

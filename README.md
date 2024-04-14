@@ -26,12 +26,12 @@ The Pillow library (if not found) will attempt to install itsself upon running `
 python main.py
 ```
 
-- Upon successful execution, the script will output 27 individual skin files to the `assets/output` directory. Each skin file is named in the sequence `skin_1.png` through `skin_27.png`.
+- Upon successful execution, the script will output 26 individual skin files to the `assets/output` directory. Each skin file is named in the sequence `skin_1.png` through `skin_26.png`.
 - Additionally, the cropped 8x8 blocks extracted from the input image will be stored in the `assets/output2` directory for reference though you can ignore them.
 
 ## Important Notes
 
-- Begin by applying the `skin_26.png` to your Minecraft profile and progress sequentially to `skin_1.png`. Finally, apply your regular skin. This sequence will ensure the intended design is displayed correctly on your NameMC profile.
+- Begin by applying the `skin_1.png` to your Minecraft profile and progress sequentially to `skin_26.png`. Finally, apply your regular skin. This sequence will ensure the intended design is displayed correctly on your NameMC profile.
 - Make sure to wait approximately 60 seconds between applying each skin to allow NameMC time to update the changes on your profile. This step is crucial to ensure that your NameMC profile art displays correctly and each skin is registered in the proper order.
 
 ## Input Image Specifications
