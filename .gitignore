@@ -2,6 +2,10 @@
 
 # Ignore the bigenv environment
 bigenv/
+Bigenv/
+
+# Ignore the second input image
+assets/input2.png
 
 # Ignore the already generated images from testing
 assets/output/

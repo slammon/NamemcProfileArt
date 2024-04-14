@@ -8,6 +8,7 @@ except ImportError:
     print("Pillow library not found. Installing now...")
     try:
         subprocess.check_call(["python", "-m", "pip", "install", "pillow"])
+        from PIL import Image
     except subprocess.CalledProcessError as e:
         print(f"Failed to install Pillow: {e}")
         exit(1)
