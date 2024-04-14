@@ -2,6 +2,8 @@
 
 Create a personalized banner for your NameMC profile using this script, which transforms a single input image into an array of custom Minecraft skins. These skins, when uploaded to your Minecraft profile in sequence, will display a cohesive design on your NameMC profile, akin to a mosaic.
 
+<img src="assets/README_EXAMPLE_IMAGE_DO_NOT_TOUCH.png" alt="Example profile art">
+
 ## Requirements
 
 Before running the script, ensure you have the following prerequisites:
