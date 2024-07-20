@@ -1,4 +1,5 @@
 # NameMC Profile Art Generator
+## So these instructions are outdated and im lazy and dont want to write new ones so just extract the zip for your platform and follow the instructions it gives you okie :)
 
 Create a personalized banner for your NameMC profile using this script, which transforms a single input image into an array of custom Minecraft skins. These skins, when uploaded to your Minecraft profile in sequence, will display a cohesive design on your NameMC profile, akin to a mosaic.
 
