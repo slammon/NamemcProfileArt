@@ -17,6 +17,11 @@ __pycache__/
 *.pyo
 *.pyd
 
+
+nmcven/
+piltest.py
+output/
+
 # Ignore Python distribution artifacts
 dist/
 build/
