@@ -8,12 +8,17 @@ Create a personalized banner for your NameMC profile using this script, which tr
 - download the release for your os from the releases page of the repo (win/linux)
 - run the executable
 - enter the path to your file (make sure its a png)
-- it will create an output dir for you and put the files in it
+- it will create an output dir for you and put the skin files in it
 - apply the skins in order with your main skin last
 - star the repo :3
 
 ## How to use (GUI)
-- uhh im working on it
-
-## How to use (WEB)
-- its happening man i swear
+- download the release for your os from the releases page of the repo (win/linux)
+- run the executable
+- press the choose file button
+- check the preview
+- if you like what you see then press slice
+- when slicing is done close the program
+- it will create an output dir for you and put the skin files in it
+- apply the skins in order with your main skin last
+- star the repo :3

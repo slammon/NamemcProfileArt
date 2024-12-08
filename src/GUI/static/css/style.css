@@ -1,0 +1,70 @@
+/* Flexbox layout for full-height page */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Dark mode background and text */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Dark mode for hero section */
+.hero {
+    background-color: #1e1e1e;
+}
+
+.hero .title, .hero .subtitle {
+    color: #ffffff;
+}
+
+/* Dark mode for boxes */
+.box {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+}
+
+/* Larger Preview */
+.image-container {
+    width: 432px; /* Explicit width */
+    height: 144px; /* Explicit height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #444;
+    margin: auto;
+    overflow: hidden; /* Ensures no overflow from image */
+}
+
+.preview-image {
+    width: 100%; /* Make the image fill the container */
+    height: 100%; /* Maintain the container's height */
+    object-fit: contain; /* Preserve aspect ratio */
+}
+
+/* Dark mode for progress bar */
+.progress {
+    background-color: #333;
+    color: #e0e0e0;
+}
+
+/* Footer sticks to bottom */
+.footer {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    padding: 20px 0;
+    margin-top: auto; /* Push footer to bottom */
+}
+
+.progress-container {
+    margin-top: 20px;
+}

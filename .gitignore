@@ -6,9 +6,19 @@ mini/
 testing.py
 output/
 output2/
+temp/
 
-pfpart_linux
-pfpart_win.exe
+# Builds
+NameMCProfileArt_CLI_Lin
+NameMCProfileArt_GUI_Lin
+NameMCProfileArt_CLI_Win
+NameMCProfileArt_GUI_Win
+
+NameMCProfileArt_CLI_Lin.spec
+NameMCProfileArt_GUI_Lin.spec
+NameMCProfileArt_CLI_Win.spec
+NameMCProfileArt_GUI_Win.spec
+
 # Ignore Python build artifacts
 __pycache__/
 *.py[cod]
