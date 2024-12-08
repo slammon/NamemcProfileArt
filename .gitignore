@@ -1,30 +1,24 @@
 # .gitignore
 
-# Ignore the bigenv environment
-bigenv/
-Bigenv/
+# Just ignore the shii
+input2.png
+mini/
+testing.py
+output/
+output2/
 
-# Ignore the second input image
-assets/input2.png
-
-# Ignore the already generated images from testing
-assets/output/
-assets/output2/
-
+pfpart_linux
+pfpart_win.exe
 # Ignore Python build artifacts
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 
-
-nmcven/
-piltest.py
-output/
-
 # Ignore Python distribution artifacts
 dist/
 build/
+main.spec
 *.egg-info/
 
 # Ignore Jupyter Notebook files
